@@ -18,7 +18,7 @@ public class LoginPage {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter Username");
         String name=scanner.nextLine();
-        System.out.println("Enter Passwoed");
+        System.out.println("Enter Password");
         String password=scanner.nextLine();
         if(verify(name,password))
             System.out.println("Login Successful");
